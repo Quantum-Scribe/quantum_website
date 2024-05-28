@@ -44,5 +44,9 @@
     "gql",
     "graphql",
     "astro"
+  ],
+  // Set css custom data to handle tailwind directives
+  "css.customData": [
+    ".vscode/tailwindcss.json"
   ]
 }
