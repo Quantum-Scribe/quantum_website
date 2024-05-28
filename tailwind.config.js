@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme'
+
 export default {
   content: [],
   theme: {
@@ -12,6 +14,10 @@ export default {
         'navy-blue': '#000080',
         'rich-indigo': '#2F195F',
         'vibrant-purple': '#7353BA',
+      },
+      fontFamily: {
+        poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
+        inter: ['Inter', ...defaultTheme.fontFamily.sans],
       },
     },
   },
