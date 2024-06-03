@@ -8,14 +8,16 @@
   },
   "scripts": {
     "build": "nuxt build",
+    "cleanup": "nuxt cleanup",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview"
   },
   "dependencies": {
     "@nuxt/eslint": "^0.3.13",
     "@nuxt/fonts": "^0.7.0",
+    "@nuxt/image": "^1.7.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "nuxt": "^3.11.2",
     "nuxt-icon": "^0.6.10",
