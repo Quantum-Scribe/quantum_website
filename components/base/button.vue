@@ -2,7 +2,7 @@
 import { cva } from 'class-variance-authority'
 import { twMerge } from 'tailwind-merge'
 
-const variants = cva('py-3 px-5 md:px-10 rounded-md', {
+const variants = cva('py-2 px-4 md:px-6 rounded-md', {
   variants: {
     variant: {
       filled: 'bg-white text-black',
