@@ -14,4 +14,9 @@ export default withNuxt(antfu({
       },
     ],
   },
+}, {
+  files: ['**.ts', '**.vue'],
+  rules: {
+    'ts/consistent-type-definitions': ['error', 'type'],
+  }
 }))
