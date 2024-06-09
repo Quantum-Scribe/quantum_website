@@ -1,5 +1,5 @@
 <template>
-  <nav class="px-10 py-8 lg:px-20 lg:py-16 flex justify-between bg-transparent">
+  <nav class="px-10 py-12 lg:px-20 lg:py-16 flex justify-between bg-transparent">
     <NuxtImg src="/logo-main.png" sizes="134 lg:206" />
     <ul class="hidden md:flex gap-12 items-center">
       <li class="py-3 lg:py-6">
