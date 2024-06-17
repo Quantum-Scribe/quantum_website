@@ -52,7 +52,7 @@
           <ProjectCard image="/projects/nayzak_patterns.png" title="Nayzak Patterns" />
           <ProjectCard image="/projects/crave_chips.png" title="Crave Chips" />
         </div>
-        <NuxtLink class="inline-block border-4 border-gray-800 rounded-full w-full py-4 text-center md:text-lg lg:text-xl" to="/projects">
+        <NuxtLink class="inline-block border-4 border-gray-800 rounded-full w-full py-4 text-center md:text-lg lg:text-xl" to="/">
           View all works <Icon name="mdi:arrow-top-right" class="size-4 md:size-6 lg:size-8" />
         </NuxtLink>
       </div>
