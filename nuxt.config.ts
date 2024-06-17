@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "nuxt-icon",
     "@nuxt/image",
-    "shadcn-nuxt"
+    "shadcn-nuxt",
+    "@vueuse/nuxt"
   ],
   eslint: {
     config: { stylistic: false, standalone: false },
