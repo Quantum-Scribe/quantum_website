@@ -22,7 +22,7 @@
         <NuxtImg src="/header-background.png" class="hidden md:block place-self-center md:col-start-2 md:row-span-3" sizes="30vw md:45vw" />
       </header>
     </BaseSection>
-    <BaseSection>
+    <BaseSection id="services">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16 items-center">
         <p class="md:col-span-2 md:text-xl md:leading-prose leading-5 max-w-screen-md">
           We are driven by our passion to craft visually captivating and  functional solutions that convey messages with impact. With a meticulous  attention to detail and a profound grasp of design fundamentals, we  consistently surpass our clients' expectations by delivering projects  that resonate deeply.
@@ -47,35 +47,37 @@
       <div class="space-y-4 md:space-y-8 lg:space-y-12">
         <BaseSectionTitle title="Recent Works" />
         <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <ProjectCard image="/projects/quantum_scribe.png" title="Quantum Scribe"/>
-          <ProjectCard image="/projects/john_mayer_nyc.png" title="John Mayer NYC"/>
-          <ProjectCard image="/projects/nayzak_patterns.png" title="Nayzak Patterns"/>
-          <ProjectCard image="/projects/crave_chips.png" title="Crave Chips"/>
+          <ProjectCard image="/projects/quantum_scribe.png" title="Quantum Scribe" />
+          <ProjectCard image="/projects/john_mayer_nyc.png" title="John Mayer NYC" />
+          <ProjectCard image="/projects/nayzak_patterns.png" title="Nayzak Patterns" />
+          <ProjectCard image="/projects/crave_chips.png" title="Crave Chips" />
         </div>
-        <NuxtLink class="inline-block border-4 border-gray-800 rounded-full w-full py-4 text-center md:text-lg lg:text-xl" to="/projects">View all works <Icon name="mdi:arrow-top-right" class="size-4 md:size-6 lg:size-8" /></NuxtLink>
+        <NuxtLink class="inline-block border-4 border-gray-800 rounded-full w-full py-4 text-center md:text-lg lg:text-xl" to="/projects">
+          View all works <Icon name="mdi:arrow-top-right" class="size-4 md:size-6 lg:size-8" />
+        </NuxtLink>
       </div>
     </BaseSection>
-    <BaseSection>
+    <BaseSection id="recent-works">
       <div class="space-y-4 md:space-y-8 lg:space-y-12">
         <BaseSectionTitle title="Technologies" />
         <p class="md:text-xl md:leading-prose leading-5">
           Unlock innovation with versatile programming languages. Our expertise  ensures seamless functionality and top-tier performance. Elevate your  projects with us.
         </p>
         <div class="flex gap-2 md:gap-6 lg:gap-10 flex-wrap items-center">
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
-          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS"/>
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
+          <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
         </div>
       </div>
     </BaseSection>

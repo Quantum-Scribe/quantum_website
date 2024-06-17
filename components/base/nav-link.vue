@@ -6,7 +6,7 @@
 </script>
 
 <template>
-  <NuxtLink class="py-3 lg:py-6" :to active-class="border-b-2">
+  <NuxtLink class="py-3 lg:py-6" :to>
     <slot>
       {{ label ?? 'Link'}}
     </slot>

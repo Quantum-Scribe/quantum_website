@@ -2,13 +2,8 @@
 import { breakpointsTailwind } from '@vueuse/core'
 import { VisuallyHidden } from 'radix-vue'
 
-const navLinks = readonly([
-  { to: '/', label: 'Home' },
-  { to: '/services', label: 'Services' },
-  { to: '/works', label: 'Works' },
-  { to: '/team', label: 'Team' },
-  { to: '/contact', label: 'Contact' },
-])
+const navLinks = useNavLinks()
+const dialogOpen = ref(false)
 
 const breakpoints = useBreakpoints(breakpointsTailwind)
 const mdAndUp = breakpoints.greaterOrEqual('md')
@@ -25,7 +20,7 @@ const mdAndUp = breakpoints.greaterOrEqual('md')
           </BaseNavLink>
         </li>
       </ul>
-      <SDialog v-else>
+      <SDialog v-else v-model:open="dialogOpen">
         <SDialogTrigger>
           <SButton variant="outline" size="icon" class="bg-transparent md:hidden">
             <Icon name="mdi:menu" class="size-6" />
@@ -39,7 +34,7 @@ const mdAndUp = breakpoints.greaterOrEqual('md')
             <ul class="flex flex-col gap-12 justify-center items-center">
               <NuxtImg src="/logo-main.png" sizes="134px" />
               <li v-for="link in navLinks" :key="link.to">
-                <BaseNavLink :to="link.to">
+                <BaseNavLink :to="link.to" @click="dialogOpen = false">
                   {{ link.label }}
                 </BaseNavLink>
               </li>
