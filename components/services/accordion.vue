@@ -28,7 +28,7 @@ const services = readonly < Array < { image: string, title: string, content: str
 </script>
 
 <template>
-  <SAccordion type="single" class="w-full" collapsible default-value="design">
+  <SAccordion type="multiple" class="w-full" collapsible :default-value="['design']">
     <SAccordionItem v-for="item in services" :key="item.value" :value="item.value">
       <SAccordionTrigger>
         <div class="flex items-center gap-5 md:gap-6 lg:gap-8">
