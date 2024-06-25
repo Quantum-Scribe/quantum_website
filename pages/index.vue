@@ -63,7 +63,7 @@
         <p class="md:text-xl md:leading-prose leading-5">
           Unlock innovation with versatile programming languages. Our expertise  ensures seamless functionality and top-tier performance. Elevate your  projects with us.
         </p>
-        <div class="flex gap-2 md:gap-6 lg:gap-10 flex-wrap items-center">
+        <div class="flex gap-2 justify-evenly md:gap-6 lg:gap-10 flex-wrap items-center">
           <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
           <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />
           <NuxtImg width="100" height="100" src="/technologies/vue.png" alt="Vue JS" />

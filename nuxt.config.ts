@@ -1,6 +1,21 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      link: [{rel :'icon', type: 'image/png', href: '/logo-icon.png'}]
+    }
+  },
+  devtools: {
+    enabled: false
+  },
+  eslint: {
+    config: {
+      standalone: false,
+      stylistic: false
+    }
+  },
   modules: [
     "@nuxt/eslint",
     "@nuxtjs/tailwindcss",
@@ -10,11 +25,8 @@ export default defineNuxtConfig({
     "shadcn-nuxt",
     "@vueuse/nuxt"
   ],
-  eslint: {
-    config: { stylistic: false, standalone: false },
-  },
   shadcn: {
-    prefix: 'S',
-    componentDir: './components/ui'
+    componentDir: "./components/ui",
+    prefix: "S"
   }
 })
